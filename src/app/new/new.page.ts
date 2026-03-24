@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { IonContent, IonHeader, IonTitle, IonToolbar, IonBackButton, IonButtons } from '@ionic/angular/standalone';
+import { IonContent, IonHeader, IonTitle, IonToolbar, IonBackButton, IonButtons, IonButton } from '@ionic/angular/standalone';
 
 @Component({
   selector: 'app-new',
   templateUrl: './new.page.html',
   styleUrls: ['./new.page.scss'],
   standalone: true,
-  imports: [IonContent, IonHeader, IonTitle, IonToolbar,IonBackButton, IonButtons, CommonModule, FormsModule]
+  imports: [IonContent, IonHeader, IonTitle, IonToolbar,IonBackButton, IonButtons, IonButton, CommonModule, FormsModule]
 })
 export class NewPage implements OnInit {
 
