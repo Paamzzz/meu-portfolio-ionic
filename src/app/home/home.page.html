@@ -2,32 +2,33 @@
 
      <div class="profile">
           <div class="profile-image-area">
-               <ion-img class="profile-image"
-                src="../../assets/images/pamela.jpeg" alt="Foto de Pamela"></ion-img>
+               <ion-img class="profile-image" src="../../assets/images/pamela.jpeg" alt="Foto de Pamela"></ion-img>
           </div>
-          <div class="profile-header">
-               <h2>Olá! Eu me chamo</h2>
-               <h1>Pamela Amancio Goulart</h1>
-          </div>
-
-          <div class="profile-info">
-               <div class="profile-card">
-                   <ion-icon name="school-outline"></ion-icon>
-                    <p>Faço Análise e Desenvolvimento de Sistemas </p>
-               </div>
-               <div class="profile-card">
-                    <ion-icon name="people-outline"></ion-icon>
-                    <p>Pertenço a turma ADS0301M</p>
-               </div>
-               <div class="profile-card">
-                    <ion-icon name="location-outline"></ion-icon>
-                    <p>Sou da unidade de Bonsucesso</p>
+          <div class="profile-main">
+               <div class="profile-header">
+                    <h2>Olá! Eu me chamo</h2>
+                    <h1>Pamela Amancio Goulart</h1>
                </div>
 
-          </div>
-          <div class="profile-cta">
-               <p>Quer conhecer mais da minha trajetóra?</p>
-               <ion-button [routerLink]="['/new']">Clique aqui</ion-button>
+               <div class="profile-info">
+                    <div class="profile-card">
+                         <ion-icon class="profile-icon" name="school-outline"></ion-icon>
+                         <p>Faço Análise e Desenvolvimento de Sistemas </p>
+                    </div>
+                    <div class="profile-card">
+                         <ion-icon class="profile-icon" name="people-outline"></ion-icon>
+                         <p>Pertenço a turma ADS0301M</p>
+                    </div>
+                    <div class="profile-card">
+                         <ion-icon class="profile-icon" name="location-outline"></ion-icon>
+                         <p>Sou da unidade de Bonsucesso</p>
+                    </div>
+
+               </div>
+               <div class="profile-cta">
+                    <p>Quer conhecer mais da minha trajetóra?</p>
+                    <ion-button [routerLink]="['/new']">Clique aqui</ion-button>
+               </div>
           </div>
      </div>
 </ion-content>
