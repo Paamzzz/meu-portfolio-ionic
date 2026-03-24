@@ -1,0 +1,7 @@
+{
+  "name": "av-avaliadora",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
