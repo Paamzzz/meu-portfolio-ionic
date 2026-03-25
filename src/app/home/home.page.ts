@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { IonButton, IonHeader, IonToolbar, IonTitle, IonContent, IonImg, IonIcon} from '@ionic/angular/standalone';
+import { addIcons } from 'ionicons';
+import { schoolOutline, peopleOutline, locationOutline } from 'ionicons/icons';
 
 @Component({
   selector: 'app-home',
@@ -10,5 +12,7 @@ import { IonButton, IonHeader, IonToolbar, IonTitle, IonContent, IonImg, IonIcon
   imports: [IonButton,IonHeader, IonToolbar, IonTitle, IonContent, RouterLink, IonImg, IonIcon],
 })
 export class HomePage {
-  constructor() {}
+  constructor() {
+     addIcons({ schoolOutline, peopleOutline, locationOutline })
+  }
 }
