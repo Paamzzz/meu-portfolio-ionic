@@ -1,13 +1,79 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>sobre</ion-title>
-  </ion-toolbar>
+     <ion-toolbar>
+          <ion-buttons slot="start">
+               <ion-back-button defaultHref="/home"></ion-back-button>
+          </ion-buttons>
+          <ion-title>Voltar</ion-title>
+     </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">sobre</ion-title>
-    </ion-toolbar>
-  </ion-header>
+     <div class="content">
+          <h1>Minha trajetória</h1>
+
+          <section class="timeline">
+               <div class="timeline-title">
+                    <ion-icon class="timeline-icon" name="star"></ion-icon>
+                    <h2>Técnico de Informática</h2>
+               </div>
+               <div class="timeline-paragraph">
+                    <p>
+                         Entre 2023 e 2024, dei meus primeiros passos no mundo da tecnologia; e foram passos largos. No
+                         técnico, explorei desde redes e manutenção de hardware até design gráfico e programação. Mas
+                         foi no TCC que tudo ganhou forma: liderei um grupo de 5 pessoas e coloquei em prática não só o
+                         conhecimento técnico, mas organização, liderança e trabalho em equipe. Uma experiência que
+                         moldou muito de quem quero ser profissionalmente.
+                    </p>
+               </div>
+          </section>
+
+          <section class="timeline">
+               <div class="timeline-title">
+                    <ion-icon class="timeline-icon" name="star"></ion-icon>
+                    <h2>Primeiro ano de faculdade</h2>
+               </div>
+               <div class="timeline-paragraph">
+                    <p>
+
+                         Entrei direto pra faculdade após o técnico, cursando Análise e Desenvolvimento de Sistemas e
+                         não me arrependo nem um pouco. No segundo semestre, participei do desenvolvimento do SyncOps,
+                         um sistema de gerenciamento de estoque. Atuei do protótipo ao código, com HTML, CSS e
+                         JavaScript no front-end, e acompanhei de perto o back-end com Azure, Docker e Postman. Além do
+                         técnico, esse ano me ensinou algo que não tem no currículo: a importância real do networking.
+                    </p>
+               </div>
+          </section>
+
+          <section class="timeline">
+               <div class="timeline-title">
+                    <ion-icon class="timeline-icon" name="star"></ion-icon>
+                    <h2> Momento Atual</h2>
+               </div>
+               <div class="timeline-paragraph">
+                    <p>
+                         Estou no terceiro semestre e buscando ativamente meu primeiro estágio na área! No dia a dia,
+                         estudo TypeScript, Ionic e Angular, integrado com Firebase. Paralelamente, estou expandindo
+                         para Cibersegurança e Ciência de Dados, tudo aplicado em dois projetos simultâneos. A
+                         tecnologia me cativa a cada avanço, e sei que um estágio será o próximo passo natural de tudo
+                         que venho construindo.
+                    </p>
+               </div>
+          </section>
+
+          <section class="redes-sociais">
+               <h3>Onde você pode me acompanhar:</h3>
+               <div class="redes-wrap">
+                    <div class="redes-details">
+                         <a href="https://linkedin.com/in/pamela-amancio-goulart">
+                              <ion-icon class="redes-logo" name="logo-linkedin" target="_blank"></ion-icon>
+                         </a>
+                    </div>
+                    <div class="redes-details">
+                         <a href="https://github.com/Paamzzz">
+                              <ion-icon class="redes-logo" name="logo-github" target="_blank"></ion-icon>
+                         </a>
+                    </div>
+               </div>
+          </section>
+     </div>
 </ion-content>
