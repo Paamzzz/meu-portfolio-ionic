@@ -4,7 +4,7 @@ html {
 
 .content {
      padding: 20px;
-     background-color: white;
+      background-color: #fff;
      position: relative;
      color: black;
 }
@@ -21,6 +21,7 @@ html {
      -webkit-text-fill-color: transparent;
 }
 
+// * Seções 
 .timeline {
      display: flex;
      flex-direction: column;
@@ -38,10 +39,25 @@ html {
      font-weight: 600;
      color: #230242;
 }
+
 .timeline-icon{
      font-size: clamp(1.5rem, 3.5vw, 2.0rem);
      font-weight: 600;
      color: #8e3cd9;
+}
+
+.star-wrap {
+       width: clamp(2rem, 10vw, 3rem);
+     height: clamp(2rem, 10vw, 3rem); // Height e width precisam ser iguais. 
+     min-width: clamp(2rem, 10vw, 3rem); //Evita distorção do icone, afetando o fundo
+    border-radius: 50%;
+    margin-left: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow:  #dbb5ff 0px 5px 10px;
+    border-bottom: #dbb5ff solid 2px;
+    background-color: #fcf7f7;
 }
 
 .timeline-paragraph {
@@ -54,4 +70,49 @@ span {
      background-clip: text;
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
+}
+
+
+// * Redes sociais
+
+.redes-sociais {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     align-items: center;
+     margin-bottom: 50px;
+     gap: 10px;
+}
+
+.redes-sociais h3 {
+     font-size: clamp(1.5rem, 4vw, 2.6rem);
+     font-weight: 600;
+     padding: 20px;
+     color: #4d015c;
+}
+
+.redes-wrap {
+     display: flex;
+     flex-direction: row;
+     gap: 50px;
+     justify-content: center;
+     text-align: center;
+}
+
+.redes-details {
+       width: clamp(3.7rem, 10vw, 4rem);
+     height: clamp(3.7rem, 10vw, 4rem); // Height e width precisam ser iguais. 
+     min-width: clamp(3.7rem, 10vw, 4rem); //Evita distorção do icone, afetando o fundo
+     background-image: linear-gradient(45deg, #1c0f4a , #8e3cd9 50%, #f72cff 100%);
+     justify-content: center;
+     border-radius: 10px;
+     display: flex;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.redes-logo {
+      font-size: clamp(3rem, 8vw, 3.5rem);
+      color: #ffffff;
+      text-align: center;
+      
 }
