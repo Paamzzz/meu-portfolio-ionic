@@ -17,7 +17,7 @@ html { //62.5% de 16px = 10px. Muito mais fácil de calcular o rem
      flex-direction: column;
      background-color: #fff;
      width: 100vw;
-     height: 180vh;
+     height: 130vh;
      border-radius: 60px 60px 0px 0px;
      z-index: 100;
      top: 80%;
@@ -100,7 +100,7 @@ html { //62.5% de 16px = 10px. Muito mais fácil de calcular o rem
 
 // Seção CTA (Call To Action)
 .profile-cta {
-     margin-top: 100px;
+     margin-top: 50px;
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -115,9 +115,10 @@ html { //62.5% de 16px = 10px. Muito mais fácil de calcular o rem
      color: #4d015c;
 }
 .cta-button {
-     width: clamp(15rem, 20vw, 25rem);
-     height: clamp(4rem, 10vw, 10rem);
-     border-radius: 30px;
+     width: clamp(13rem, 40vw, 30rem);
+     height: clamp(3.5rem, 10vw, 10rem);
+     border-radius: 20px;
      font-size:  clamp(1.3rem, 4vw, 2.5rem);
-     // background-color: linear-gradient(45deg, #1c0f4a , #8e3cd9 50%, #f72cff 100%);
+     font-weight: 600;
+     background-image: linear-gradient(45deg, #f72cff , #8e3cd9 50%, #1c0f4a 100%);
 }
