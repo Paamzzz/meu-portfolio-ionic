@@ -1,8 +1,9 @@
-# 📱 meu-portfolio-ionic
+<div align="center">
+<h1>📱 meu-portfolio-ionic</h1>
 
 > Meu primeiro projeto com Ionic + Angular. uma apresentação pessoal em formato de app mobile.
+</div>
 
----
 
 ## 🙋‍♀️ Sobre o projeto
 
@@ -10,15 +11,15 @@ Este app foi desenvolvido como **avaliação formativa** da faculdade, no curso 
 
 É o meu primeiro contato real com **Ionic** e **Angular**, e foi uma experiência que me ensinou muito mais do que eu esperava.
 
----
+
 
 ## 📸 Telas
 
 <div align="center">
-     <img href="assets/screenshots/screenshot-home" width="250">
-     <img href="assets/screenshots/screenshot-sobre" width="250">
+     <img src="src/assets/screenshots/screenshot-home.png" width="250" style="margin-right: 200px">
+     <img src="src/assets/screenshots/screenshot-sobre.png" width="250">
 </div>
----
+
 
 ## ✨ Funcionalidades
 
@@ -28,7 +29,6 @@ Este app foi desenvolvido como **avaliação formativa** da faculdade, no curso 
 - Links diretos para LinkedIn e GitHub
 - Layout responsivo adaptado para mobile
 
----
 
 ## 🛠️ Tecnologias utilizadas
 
@@ -38,7 +38,7 @@ Este app foi desenvolvido como **avaliação formativa** da faculdade, no curso 
 - SCSS
 - Ionicons
 
----
+
 
 ## 🚀 Como rodar o projeto
 
